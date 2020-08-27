@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#header{
+    height: 150vh;
+    
+    background-image: url(background.png) ;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+  
+}
+.nav{
+    margin-right: 50px;
+    margin-left: 30px;
+
+ 
+}
+ .csi{
+    letter-spacing: 3px;
+    height: 7rem;
+   flex: auto;
+    color: white;
+   width: 33%;
+   text-decoration: none;
+}
+.header-logo_box{
+    margin-top: 70px;
+    margin-left:270px;
+    width: 250px;
+ 
+   
+}
+.header-title{
+    width: 590px;
+    margin-top: 20px;
+    margin-left:400px ;
+}
+div{
+    display: black;
+}
+#sideNav{
+    width: 250px;
+    height:100vh;
+  position: fixed;
+   right: 0;
+    top: 0;}
+
+ nav ul li{
+     list-style: none;
+    margin: 20px 10px;
+ padding-left: 10px;
+    text-decoration: none;
+    display: inline;
+    
+   
+    
+ }
+ nav ul li a{
+     text-decoration: none;
+     color: white;
+     background-color: black;
+   float: left;
+    
+   padding: 5px;
+    font-size:large; 
+    font-family: sans-serif;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
+    
+   
+ }
