@@ -42,9 +42,7 @@
     margin-top: 30px;
     margin-left:390px ;
 }
-div{
-    display: black;
-}
+
 #sideNav{
     width: 300px;
     height:100vh;
@@ -57,18 +55,15 @@ div{
  nav ul li{
      list-style: none;
     margin: 20px 10px;
-    text-decoration: none;
-    display: flexbox;   
+    text-decoration: none;   
  }
  nav ul li a{
      font-size:larger;
      text-decoration: none;
      color: white;
-     background-color: black;
-     display: inline;   
+     background-color: black; 
      padding: 5px;
-     font-family: sans-serif;  
-   
+     font-family: sans-serif;    
  }
  #menuBtn{
      width: 40px;
@@ -111,7 +106,6 @@ div{
     opacity: 0;
     top: 0;
     right: -20px;
-    transition: 0.5s;
   }
   
   .Buttons:hover span {
@@ -122,7 +116,7 @@ div{
     opacity: 1;
     right: 0;
   }
-  .container-wrap{
+  .container{
       padding-bottom: 40px;
       background-color: #ededed;
       height: 100%;
@@ -143,7 +137,7 @@ div{
       top: 30px;
       width: 80%;
       height: 310px;
-      box-shadow: 3px 2px 6px 5px grey;
+      box-shadow: 3px 2px 6px 5px grey;/* h-offset v-offset blur spread color*/
       margin-bottom: 40px;
       font-size: large;
       color: gray;
@@ -155,7 +149,7 @@ div{
     position: relative;
     background-color: white;
     top: 30px;
-    width: 80%;
+    width: 81%;
     height: 310px;
     box-shadow: 3px 2px 6px 5px grey;
     margin-bottom: 40px;
@@ -225,10 +219,10 @@ div{
     background-image: linear-gradient(to right,#00695c,#00695c),url(footer.png);
     background-size: cover;
     background-blend-mode: color;
-    animation: foot 15s infinite;
+    animation: down 15s infinite;
 
 }
-@keyframes foot{
+@keyframes down{
     0%{
         transform: scale(1);
     }
