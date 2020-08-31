@@ -23,7 +23,6 @@
  .logo{
     letter-spacing: 3px;
     height: 7rem;
-   flex: auto;
     color:white;
    width: 33%;
    text-decoration: none;
@@ -49,7 +48,7 @@
   position: fixed;
    right: -300px;
     top: 35px;
-   z-index: 2;
+    z-index: 2;
     transition: .5s;}
 
  nav ul li{
