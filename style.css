@@ -34,7 +34,13 @@
     margin-left:565px;
     width: 200px;
     margin-top: 50px;
-    opacity: 0.9;   
+    opacity: 0.9;  
+    -webkit-transition:
+    -webkit-transform 0.3s ease; 
+}
+.header-logo_box:hover{
+    -webkit-transform: rotate(1440deg);
+    scale:(1.2);
 }
 .title{
     width: 590px;
@@ -262,16 +268,4 @@
 .fab{
     margin-right: 15px;
     font-size: 130%;
-}
-#img{
-    -webkit-animation: rotation 2s infinite linear;
-}
-
-@-webkit-keyframes rotation {
-    from {
-            -webkit-transform: rotate(0deg);
-    }
-    to {
-            -webkit-transform: rotate(360deg);
-    }
 }
